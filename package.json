@@ -1,0 +1,11 @@
+{
+  "name": "automatic-stock-management-and-delivery-system",
+  "version": "1.0.0",
+  "description": "Automatic Stock Management and Delivery System",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "",
+  "license": "ISC"
+}
