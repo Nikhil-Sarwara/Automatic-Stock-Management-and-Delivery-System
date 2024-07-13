@@ -1,5 +1,3 @@
-Here’s a nice-looking `README.md` template for your **Automatic Stock Management and Delivery System** project. You can adapt this template to fit the specifics of your implementation.
-
 # 📦 Automatic Stock Management and Delivery System
 
 Welcome to the **Automatic Stock Management and Delivery System** project! This system is designed to automate the inventory and delivery processes for supermarkets, making stock management efficient, accurate, and seamless.
@@ -75,9 +73,11 @@ pip install -r requirements.txt
 
 Create a new database in MySQL/PostgreSQL:
 
-```sql
+run python script
+
+<!-- ```sql
 CREATE DATABASE stock_management;
-```
+``` -->
 
 ### Run the System
 
@@ -147,8 +147,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 If you have any questions or feedback, feel free to reach out:
 
-- Project Maintainer: [Your Name](mailto:your.email@example.com)
-- GitHub: [@yourusername](https://github.com/yourusername)
+- Project Maintainer: [Nikhil Sarwara](mailto:nikhilsarwara01@gmail.com)
+- GitHub: [@Nikhil-Sarwara](https://github.com/Nikhil-Sarwara)
 
 ### **Key Sections**:
 
@@ -160,5 +160,3 @@ If you have any questions or feedback, feel free to reach out:
 - **Roadmap**: The project’s development plan.
 - **Contributing**: How others can contribute to the project.
 - **License and Contact Info**: Clear licensing and contact details.
-
-Would you like any specific customizations for your project?
