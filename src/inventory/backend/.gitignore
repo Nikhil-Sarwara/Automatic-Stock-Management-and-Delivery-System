@@ -1,0 +1,60 @@
+# Node.js dependencies
+/node_modules/
+
+# Environment variables
+.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+jspm_packages/
+
+# Build output
+/dist
+/build
+/public
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# IDE and Editor specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# MacOS specific
+*.DS_Store
+
+# Linux specific
+*~
+
+# Windows specific
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Coverage directory used by tools like istanbul
+/coverage/
+
+# Test output
+/coverage
+
+# Optional npm cache directory
+.npm
+
+# Yarn lock file
+yarn.lock
+
+# Heroku specific
+/.heroku/
+
+# MongoDB data directory (if using local MongoDB)
+mongodb_data/
