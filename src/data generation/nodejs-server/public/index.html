@@ -1,0 +1,32 @@
+<!-- nodejs-server/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Node.js Server</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const socket = io();
+
+        // Handle incoming data
+        socket.on("data", (data) => {
+          console.log("Data received:", data);
+          document.getElementById("data").textContent = JSON.stringify(data);
+        });
+
+        // Send some data
+        document.getElementById("sendData").addEventListener("click", () => {
+          const data = { message: "Hello from the client!" };
+          socket.emit("data", data);
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <h1>Node.js Server with Socket.IO</h1>
+    <button id="sendData">Send Data</button>
+    <pre id="data"></pre>
+  </body>
+</html>

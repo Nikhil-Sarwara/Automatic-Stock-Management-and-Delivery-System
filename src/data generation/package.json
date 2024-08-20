@@ -1,0 +1,21 @@
+{
+  "name": "my-data-processing-project",
+  "version": "1.0.0",
+  "description": "A project for data collection and real-time processing using Node-RED and Node.js.",
+  "main": "nodejs-server/server.js",
+  "scripts": {
+    "start-nodejs": "node nodejs-server/server.js",
+    "start-node-red": "node-red",
+    "install": "cd nodejs-server && npm install"
+  },
+  "dependencies": {
+    "express": "^4.17.3",
+    "socket.io": "^4.0.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
