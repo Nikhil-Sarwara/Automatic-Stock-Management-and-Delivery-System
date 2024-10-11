@@ -27,7 +27,7 @@ mqttClient.on("message", (topic, message) => {
   const data = JSON.parse(message.toString());
   console.log("Received data:", data);
 
-  // Broadcast data to all clients using WebSocket (optional)
+  // Broadcast data to all clients using WebSocket
   io.emit("data", data);
 });
 
